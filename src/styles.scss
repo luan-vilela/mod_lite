@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+
+// fonts
+@font-face {
+    font-family: 'Segoe UI';
+    src: url("./assets/fonts/Segoe\ UI.ttf");
+}
+
+:root{
+    --cor1: #fc5501;
+}
+
+body{
+    background: #f7f7f7;
+}

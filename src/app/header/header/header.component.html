@@ -1,0 +1,92 @@
+<div class="navigation" [ngClass]="{'close': toggle}">
+  <div class="logo">
+    <img
+      src="./assets/img/logolitech.png"
+      alt="logo litech"
+      width="192"
+    />
+  </div>
+
+  <div class="main">
+    <ul>
+      <li class="list" [ngClass]="{'active': btnActived == 0}" (click)="onActived(0)">
+        <a href="#">
+          <span class="icon"><i class="bi bi-house"></i></span>
+          <span class="title">Home</span>
+        </a>
+      </li>
+      <li class="list" [ngClass]="{'active': btnActived == 1}" (click)="onActived(1)">
+        <a href="#">
+          <span class="icon"><i class="bi bi-display"></i></span>
+        <span class="title">Gerenciar Solicitações de Cadastro</span>
+        <span class="status">2</span>
+        </a>
+      </li>
+      <li class="list" [ngClass]="{'active': btnActived == 2}" (click)="onActived(2)">
+        <a href="#">
+          <span class="icon"><i class="bi bi-clipboard-minus"></i></span>
+        <span class="title">Gerenciar Solicitações de Agendamento</span>
+        <span class="status">100</span>
+        </a>
+      </li>
+      <li class="list" [ngClass]="{'active': btnActived == 3}" (click)="onActived(3)">
+        <a href="#">
+          <span class="icon"><i class="bi bi-file-earmark-person"></i></span>
+          <span class="title">Cadastro de Usuários</span>
+          <span class="status">2</span>
+        </a>
+      </li>
+      <li class="list" [ngClass]="{'active': btnActived == 4}" (click)="onActived(4)">
+        <a href="#">
+          <span class="icon"><i class="bi bi-calendar2-check"></i></span>
+          <span class="title">Agendar Manualmente</span>
+          <span class="status">2</span>
+        </a>
+      </li>
+      <li class="list" [ngClass]="{'active': btnActived == 5}" (click)="onActived(5)">
+        <a href="#">
+          <span class="icon">
+            <i class="bi bi-columns"></i>
+          </span>
+        <span class="title">Gerenciador de Formulários</span>
+        <span class="status no-status">2</span>
+        </a>
+      </li>
+      <li class="list" [ngClass]="{'active': btnActived == 6}" (click)="onActived(6)">
+        <a href="#">
+          <span class="icon"><i class="bi bi-patch-check"></i></span>
+        <span class="title">Gerenciar Certificados</span>
+        <span class="status">2</span>
+        </a>
+      </li>
+      <li class="list" [ngClass]="{'active': btnActived == 7}" (click)="onActived(7)">
+        <a href="#">
+          <span class="icon"><i class="bi bi-person"></i></span>
+          <span class="title">Perfil</span>
+          <span class="status">2</span>
+        </a>
+      </li>
+    </ul>
+
+    <ul>
+      <li class="list" [ngClass]="{'active': btnActived == 8}" (click)="onActived(8)">
+        <a href="#">
+          <span class="icon"><i class="bi bi-chat-dots"></i></span>
+          <span class="title">Mensagens</span>
+          <span class="status">2</span>
+        </a>
+      </li>
+      <li class="list" [ngClass]="{'active': btnActived == 9}" (click)="onActived(9)">
+        <a href="#">
+          <span class="icon"><i class="bi bi-box-arrow-left"></i></span><span class="title">Sair</span>
+        </a>
+      </li>
+    </ul>
+     
+  </div>
+</div>
+
+<div class="toggle" (click)="toggle=!toggle">
+  <span class="icon"><i class="bi bi-list"></i></span>
+  <span class="icon"><i class="bi bi-x"></i></span>
+</div>
