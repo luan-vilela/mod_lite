@@ -137,12 +137,12 @@
                 transform: translateY(calc(70px * 3));
             }
             &:nth-child(5).active ~indicador {
-                transform: translateY(calc(70px * 4));
+                // transform: translateY(calc(70px * 4));
             }
             
                
         }
-        // padding: 0;
+        padding: 0;
     }
     
 }
