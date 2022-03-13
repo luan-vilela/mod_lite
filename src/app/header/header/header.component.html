@@ -86,7 +86,7 @@
   </div>
 </div>
 
-<div class="toggle" (click)="toggle=!toggle">
+<div class="toggle" [ngClass]="{'close': toggle}" (click)="toggle=!toggle">
   <span class="icon"><i class="bi bi-list"></i></span>
   <span class="icon"><i class="bi bi-x"></i></span>
 </div>
