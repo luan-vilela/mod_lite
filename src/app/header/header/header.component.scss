@@ -119,8 +119,8 @@
                         height: 50px;
                         border-radius: 50%;
                         background: transparent;
-                        pointer-events: none;
-                        box-shadow: 35px -35px 0 10px white;
+                        // pointer-events: none;
+                        // box-shadow: 35px -35px 0 10px white;
                     }
                 }
             }
@@ -131,9 +131,9 @@
             // &:nth-child(2).active ~indicador {
             //     transform: translateY(calc(70px * 1));
             }
-            &:nth-child(3).active ~indicador {
-                transform: translateY(calc(70px * 2));
-            }
+            // &:nth-child(3).active ~indicador {
+            //     transform: translateY(calc(70px * 2));
+            // }
             // &:nth-child(4).active ~indicador {
             //     transform: translateY(calc(70px * 3));
             // }
