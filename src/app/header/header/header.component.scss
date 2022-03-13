@@ -109,19 +109,19 @@
                         pointer-events: none;
                         box-shadow: 35px 35px 0 10px white;
                     }
-                    &::after{
-                        content: '';
-                        position: absolute;
-                        right: -8px;
-                        bottom: -50px;
-                        width: 50px;
-                        height: 50px;
-                        border-radius: 50%;
-                        background: transparent;
-                        pointer-events: none;
-                        box-shadow: 35px -35px 0 10px white;
-                    }
-                }
+                //     &::after{
+                //         content: '';
+                //         position: absolute;
+                //         right: -8px;
+                //         bottom: -50px;
+                //         width: 50px;
+                //         height: 50px;
+                //         border-radius: 50%;
+                //         background: transparent;
+                //         pointer-events: none;
+                //         box-shadow: 35px -35px 0 10px white;
+                //     }
+                // }
             }
             // transição de hover
             // &:nth-child(1).active ~indicador {
